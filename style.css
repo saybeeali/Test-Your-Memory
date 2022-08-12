@@ -2,31 +2,10 @@ body {
     text-align: center;
     background-color:lightgray;
 }
-/* .cardwrapper, .card{
-    
-       
-        border-radius: 5px;
-        
-        background: #282A3A;
-        transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
-        backface-visibility: hidden;
-    }
 
-.card{
-    border: 5px solid black;
-    width: 50px;
-    height: 80px;
-    margin: 5px;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    background: #FDF8E6;
-    transform: rotateY(180deg) rotateZ(50deg);
-    user-select: none;
 
-} */
 .count {
-    /* border: 2px solid black; */
+
     position:relative;
     font-size: 20px;
 
@@ -53,7 +32,7 @@ body {
 }
 .card-flip .inner-card-flip {
 cursor:pointer;
-    /* transform: rotateY(180deg); */
+    
 }
 .card-flip-front {
 position: absolute;
