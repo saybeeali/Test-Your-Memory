@@ -1,7 +1,9 @@
-GAME INTRODUCTION
-the Hey guys out of all the options we had to choose from I originally wanted to do the slot machine game because I thought the JavaScript would’ve been an easy job for me but then I also realized that I wanted to make a game which involved some skill so I decided to go with memory matcher instead. T
-The base of this game is just like any other memory match game where you must find each pairs match before the timer ends and once you do the game ends, if the timer beats you you lose. I wanted to get more creative with it but because of the time I spent on my JavaScript I could only do the emojis but as I learn more throughout this Boot Camp I’ll be definitely adding more to this game hope you guys enjoy
+**<Your game's title>**: A description of your game. Background info of the game is a nice touch.
+TEST YOUR MEMORY !!
+TRY TO MATCH ALL THE CARDS WITH THEIR PAIRS BEFORE TIMER RUNS OUT.
+goal was to make it look modern and clean.
 
+☐ **Screenshot(s):** Images of your actual game.
 
 Starting screen 
 ![Alt text](https://i.imgur.com/fj1XKFL.png)
@@ -9,14 +11,16 @@ Starting screen
 Winner screen 
 ![Alt text](https://i.imgur.com/8UO1yhZ.png)
 
+
 loser screen 
 ![Alt text](https://i.imgur.com/yh4reQc.png)
 
+☐ **Technologies Used**: List of the technologies used, e.g., JavaScript, HTML, CSS...
+
+☐ **Getting Started**: In this section include the link to your deployed game and any instructions you deem important.
 Heres the link of the game 
 https://saybeeali.github.io/Test-Your-Memory/
 
-My biggest challenge in this game was to get each card to flip and then stay open once they’re matched and then flip back to the original state when they’re not matched I’m very thankful to all of the instructors and all of the teacher and sisters teachers assistant which helped me get through this if it wasn’t for them I think I would’ve threw my Mac out the window
 
-
-My key learnings and take away from this are that it’s always best to have an extra pair of eyes to look at your code because it could be the most simplest thing which could be blocking a very valuable function to occur and I think I’m slowly becoming a master at googling
-
+☐ **Next Steps**: Planned future enhancements (icebox items).
+add audio to each click and game overr
