@@ -1,5 +1,17 @@
-Introduce game
-the Hey guys out of all the options we had to choose from I originally wanted to do the slot machine game because I thought the JavaScript would’ve been an easy job for me but then I also realized that I wanted to make a game which involved some skill so I decided to go with memory mattress instead the base of this game is just like any other memory match game where you must find each pairs match and once you do the game ends I wanted to get more creative with it but because of the time I spent on my JavaScript I could only do the emojis but as I learn more throughout this Boot Camp I’ll be definitely adding more to this game hope you guys enjoy
+GAME INTRODUCTION
+the Hey guys out of all the options we had to choose from I originally wanted to do the slot machine game because I thought the JavaScript would’ve been an easy job for me but then I also realized that I wanted to make a game which involved some skill so I decided to go with memory matcher instead. T
+The base of this game is just like any other memory match game where you must find each pairs match before the timer ends and once you do the game ends, if the timer beats you you lose. I wanted to get more creative with it but because of the time I spent on my JavaScript I could only do the emojis but as I learn more throughout this Boot Camp I’ll be definitely adding more to this game hope you guys enjoy
+
+
+Starting screen 
+![Alt text](https://imgur.com/fj1XKFL)
+
+
+Winner screen 
+![Alt text](https://imgur.com/8UO1yhZ)
+
+loser screen 
+![Alt text](https://imgur.com/yh4reQc)
 
 Heres the link of the game 
 https://saybeeali.github.io/Test-Your-Memory/
