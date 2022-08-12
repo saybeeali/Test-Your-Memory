@@ -1,0 +1,36 @@
+//////////HOW THE GAME WORKS //////////////////////////////
+How do you start the game ?
+inital page will show full layout of level 1
+game wil start once card is clicked on, once card is clicked the timer will also start
+// what does player do next
+Goal of the game is to match all the cards with there with there pairs before the timer runs out and beat all 3 levels
+
+There are 3 levels 
+level 1 10 cards 45 seconds 
+level 2 12 cards 40 seconds 
+level 3 14 cards 30 seconds 
+If timer runs out before player finishes a level then player LOSES
+
+
+There will be a box that shows which levels completed 
+
+
+
+//////////DETAILS OF THE GAME 
+need about 14 cards/images or things to match.\
+on click of any card will start the timer
+create 3 timer settings and 3 level settings 
+level 1 10 cards 45 seconds 
+level 2 12 cards 40 seconds 
+level 3 14 cards 30 seconds 
+
+make function to unlock level 2 once level one is finished
+create function that moves to level 2 once clicked on 
+
+make if statement for each possiblity and for each match 
+make first card stay uncovered until 2nd card is clicked 
+once matched keep them open 
+for final level show all the cards for 3-5 seconds 
+
+once you finish a level cover page with LEVEL 1 COMPLETE same thing for all levels
+and once game is complete drop down page with congrats you win and compliment memory.

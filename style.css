@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background-color:lightgray;
+}
+/* .cardwrapper, .card{
+    
+       
+        border-radius: 5px;
+        
+        background: #282A3A;
+        transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+        backface-visibility: hidden;
+    }
+
+.card{
+    border: 5px solid black;
+    width: 50px;
+    height: 80px;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: #FDF8E6;
+    transform: rotateY(180deg) rotateZ(50deg);
+    user-select: none;
+
+} */
+.count {
+    /* border: 2px solid black; */
+    position:relative;
+    font-size: 20px;
+
+}
+.card-flip {
+    margin: 20px;
+        background-color: transparent;
+        width: 50px;
+        height: 80px;
+        border: 1px solid black;
+        perspective: 1000px; 
+}
+.inner-card-flip {
+    position: relative;
+  width: 50px;
+  height: 80px;
+  text-align: center;
+  transition: transform .5s;
+  transform-style: preserve-3d;
+
+}
+.flip-card {
+    transform:rotateY(180deg)
+}
+.card-flip .inner-card-flip {
+cursor:pointer;
+    /* transform: rotateY(180deg); */
+}
+.card-flip-front {
+position: absolute;
+  width: 50px;
+  height: 80px;
+  backface-visibility:hidden; 
+  transform: rotateY(0deg);
+ 
+
+}
+.card-flip-front {
+    background-color: teal;
+  color: teal;
+  
+  
+}
+
+.card {
+    
+    background-color:aliceblue;
+    
+    width: 50px;
+    height: 80px;
+    
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    backface-visibility:hidden; 
+  transform: rotateY(180deg);
+    
+ }
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+    text-align:center;
+    border: 5px solid teal;
+    padding: 20px;
+    background-color: teal;
+    color:aliceblue
+}
+.instructions-label{
+    font-family:'Acme', sans-serif;;
+    font-weight: bolder;
+    
+    
+   margin-bottom: 20px;
+    font-size:30px;
+}
+.instructions {
+    font-size: 20px;
+}
