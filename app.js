@@ -5,6 +5,21 @@ const reset =document.querySelector(".reset")
 reset.addEventListener("click", () => {
     window.location.reload()
 })
+let countDown = 20;
+let interval = setInterval(function(){
+  document.querySelector('.timer').innerHTML=countDown;
+  countDown--;
+  if (countDown === 0){
+    clearInterval(interval);
+    document.querySelector('.timer').innerHTML='TIMES UP!!';
+    winner.innerHTML="Times up, Try again."
+   
+  }
+}, 1500);
+
+
+
+
 let matches = 0;
 let clickedCards = []
 let bothCards =[]
@@ -14,6 +29,7 @@ let flipClick= document.querySelectorAll(".inner-card-flip")
         flip.addEventListener("click",() => {
             flipOpen(flip); 
              current(flip)
+             
         })})
     
 
@@ -57,13 +73,13 @@ function current (evt) {
     
     if(clickedCards.length == 2) {
         if(clickedCards[0]===clickedCards[1]) {
-            
+        
              matches++;
              htmlMatches.innerHTML=`Matches: ${matches} `
             clickedCards.length=0;
             matchedCards.push(bothCards[0])
             matchedCards.push(bothCards[1])
-          
+        
             console.log(matchedCards)
             console.log("matched")
             disableCard(matchedCards)
@@ -101,11 +117,11 @@ function current (evt) {
             if (matches == 4) {
             
                 winner.innerHTML="You Won with 4 Matches"
+                countDown= "You win!!!"
+                clearInterval(interval);
                 
             }
-            else {
-                
-            }
+          
         }
         function shuffleBoard() {
             let wrapper = document.querySelector('.wrapper');

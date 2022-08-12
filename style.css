@@ -8,8 +8,17 @@ body {
 
     position:relative;
     font-size: 20px;
+    font-family: 'Acme', sans-serif;
 
 }
+.reset{
+    padding:5px;
+}
+    .timer{
+margin:10px;
+font-family:'Silkscreen', cursive ;
+font-size: 25px;
+    }
 .card-flip {
     margin: 20px;
         background-color: transparent;
@@ -90,4 +99,5 @@ h1 {
 }
 .instructions {
     font-size: 20px;
+    font-family: 'Acme', sans-serif;
 }
