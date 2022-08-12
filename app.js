@@ -35,9 +35,7 @@ let flipClick= document.querySelectorAll(".inner-card-flip")
 
 
 
-function resetCards(array) {
-    array.forEach()
-}
+
 
 function flipOpen (evt){
 
@@ -99,37 +97,42 @@ function current (evt) {
             
             
              }}}
+             
            
-            function unflipCards(evt) {
+      function unflipCards(evt) {
             setTimeout(() => {
                 flipBack(evt)
             }, 1000);}
 
+
+
+        function gameDone() {
+                console.log(matches)
+                if (matches == 4) {
+                
+                    winner.innerHTML="You Won with 4 Matches"
+                    countDown= "You win!!!"
+                    clearInterval(interval);
+                    
+                }
+              
+            }
+
+
+         function shuffleBoard() {
+                let wrapper = document.querySelector('.wrapper');
+                for (let i = wrapper.children.length; i >= 0; i--) {
+                    wrapper.appendChild(wrapper.children[Math.random() * i | 0]);
+                }
+            }
+            shuffleBoard()
         
         
             
     
-        
-      
-
-        function gameDone() {
-            console.log(matches)
-            if (matches == 4) {
             
-                winner.innerHTML="You Won with 4 Matches"
-                countDown= "You win!!!"
-                clearInterval(interval);
-                
-            }
-          
-        }
-        function shuffleBoard() {
-            let wrapper = document.querySelector('.wrapper');
-            for (let i = wrapper.children.length; i >= 0; i--) {
-                wrapper.appendChild(wrapper.children[Math.random() * i | 0]);
-            }
-        }
-        shuffleBoard()
+            
+            
 
 
 

@@ -1,0 +1,24 @@
+**<Your game's title>**: A description of your game. Background info of the game is a nice touch.
+TEST YOUR MEMORY !!
+TRY TO MATCH ALL THE CARDS WITH THEIR PAIRS BEFORE TIMER RUNS OUT.
+goal was to make it look modern and clean.
+☐ **Screenshot(s):** Images of your actual game.
+Starting screen 
+![Alt text](https://i.imgur.com/fj1XKFL.png)
+
+Winner screen 
+![Alt text](https://i.imgur.com/8UO1yhZ.png)
+
+
+loser screen 
+![Alt text](https://i.imgur.com/yh4reQc.png)
+
+☐ **Technologies Used**: List of the technologies used, e.g., JavaScript, HTML, CSS...
+
+☐ **Getting Started**: In this section include the link to your deployed game and any instructions you deem important.
+Heres the link of the game 
+https://saybeeali.github.io/Test-Your-Memory/
+
+
+☐ **Next Steps**: Planned future enhancements (icebox items).
+add audio to each click and game overr
