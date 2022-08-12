@@ -2,6 +2,9 @@ let getCard = document.querySelectorAll(".card")
 const winner = document.querySelector(".winner")
 const htmlMatches = document.querySelector('.count')
 const reset =document.querySelector(".reset")
+reset.addEventListener("click", () => {
+    window.location.reload()
+})
 let matches = 0;
 let clickedCards = []
 let bothCards =[]
