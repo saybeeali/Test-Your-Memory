@@ -1,6 +1,9 @@
 body {
     text-align: center;
-    background-color:lightgray;
+    background-image:url('https://media.tenor.com/X40HfBseNU8AAAAC/nightlights-8bit.gif');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -53,8 +56,8 @@ position: absolute;
 
 }
 .card-flip-front {
-    background-color: teal;
-  color: teal;
+    background-color: rgb(187, 238, 238);
+  color: rgb(187, 238, 238);;
   
   
 }
@@ -84,10 +87,10 @@ h1 {
     font-family: 'Silkscreen', cursive;
     font-size: 50px;
     text-align:center;
-    border: 5px solid teal;
+    border: 5px solid rgb(187, 238, 238);
     padding: 20px;
-    background-color: teal;
-    color:aliceblue
+    background-color: rgb(187, 238, 238);
+    color:black;
 }
 .instructions-label{
     font-family:'Acme', sans-serif;;

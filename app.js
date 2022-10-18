@@ -170,22 +170,3 @@ function current (evt) {
 
 
 
-// now create function that logs once two of same cards are matched 
-
-
-// This might be where I would start:
-// Steps for building an mvp memory matcher
-// 1. declare a variable that selects all of your cards
-// 2. Add an event listener to the first card
-// 3. Have the event listener access the event.target to verify the content of the
-// card
-// 4. console.log the innerText of the current card
-// Add the event listeners to all of the cards (instead of just the first one)
-// 6. Keep track of which card was clicked (to a maximum of two cards) - ie
-// card1 card2
-// 7. Check if the innerText of card 1 and card 2 match
-// 8. console.log the match state and update the player score
-
-
-//have to make an empty array which enterrs clicked buttons into the array so it keeps track of whats being clicked.
-//then make a function to checl if clicked card match together, if they do log ITS A MAtc
